@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="Unity Tests" total="21" errors="0" failures="0" not-run="0" inconclusive="1" ignored="0" skipped="0" invalid="0" date="2014-02-03" time="00:09:07">
+  <environment nunit-version="2.6.2-Unity" clr-version="2.0.50727.1433" os-version="Unix 13.0.0.0" platform="Unix" cwd="/Users/david/branches/mono/UnityUnitTest" machine-name="Davids-MacBook-Air.local" user="david" user-domain="Davids-MacBook-Air.local" />
+  <culture-info current-culture="" current-uiculture="" />
+  <test-suite name="Unit Tests" type="Assembly" executed="True" result="Success" success="True" time="0.297">
+    <results>
+      <test-case name="JavaScriptUnitTests.JavaScriptTest" executed="True" result="Success" success="True" time="0.017">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.BooUnitTests.BooTest" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.NSubstituteDemo.RegisteredEventListenersGetEvents" executed="True" result="Success" success="True" time="0.251">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.CultureSpecificTest" executed="True" result="Success" success="True" time="0.000">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.ExceptionTest" executed="True" result="Success" success="True" time="0.000">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.ExpectedExceptionTest" executed="True" result="Success" success="True" time="0.003">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.FailingTest" executed="True" result="Success" success="True" time="0.000">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.IgnoredTest" executed="True" result="Success" success="True" time="0.000">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.InconclusiveTest" executed="True" result="Success" success="True" time="0.000">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.ParameterizedTest(1)" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.ParameterizedTest(2)" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.ParameterizedTest(3)" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.PassingTest" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.RangeTest(1)" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.RangeTest(4)" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.RangeTest(7)" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.RangeTest(10)" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SlowTest" executed="True" result="Success" success="True" time="0.001">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SquareRootDefinition(0.0d)" executed="True" result="Success" success="True" time="0.012">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SquareRootDefinition(1.0d)" executed="True" result="Success" success="True" time="0.000">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SquareRootDefinition(-1.0d)" executed="True" result="Inconclusive" success="False" time="0.004">
+        <reason>
+          <message>
+<![CDATA[  Expected: True
+  But was:  False
+]]>
+          </message>
+        </reason>
+      </test-case>
+    </results>
+  </test-suite>
+</test-results>
+ase name="UnityTest.SampleTests.RangeTest(10)" executed="True" result="Success" success="True" time="0.001">
+        <reason>
+          <message>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SlowTest" executed="True" result="Failure" success="False" time="0.203">
+        <failure>
+          <message>
+<![CDATA[Elapsed time of 202ms exceeds maximum of 100ms]]>
+          </message>
+          <stack-trace>
+          </stack-trace>
+        </failure>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SquareRootDefinition(0.0d)" executed="True" result="Success" success="True" time="0.026">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SquareRootDefinition(1.0d)" executed="True" result="Success" success="True" time="0.000">
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SquareRootDefinition(-1.0d)" executed="True" result="Inconclusive" success="False" time="0.008">
+        <reason>
+          <message>
+<![CDATA[  Expected: True
+  But was:  False
+]]>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SquareRootDefinition(double.MaxValue)" executed="True" result="Inconclusive" success="False" time="0.001">
+        <reason>
+          <message>
+<![CDATA[  Expected: True
+  But was:  False
+]]>
+          </message>
+        </reason>
+      </test-case>
+      <test-case name="UnityTest.SampleTests.SquareRootDefinition(double.PositiveInfinity)" executed="True" result="Inconclusive" success="False" time="0.001">
+        <reason>
+          <message>
+<![CDATA[  Expected: True
+  But was:  False
+]]>
+          </message>
+        </reason>
+      </test-case>
+    </results>
+  </test-suite>
+</test-results>

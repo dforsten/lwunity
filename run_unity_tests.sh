@@ -9,6 +9,12 @@ rm UnitTestResults.xml
 # After refresh the current state of the code is reflected in the tests
 /Applications/Unity/Unity.app/Contents/MacOS/Unity -batchmode -projectPath /Users/david/jenkins_slave/workspace/lwunity -executeMethod UnityTest.UnitTestView.RunAllTestsBatch
 
+if [ ! -f UnitTestResults.xml ]
+then
+  echo "UnitTestResults.xml does not exist. Exiting..."
+  exit 1
+fi
+
 # Simply search for a 'success="False"' string to determine if the unit tests succeeded.
 if [ $(grep -c "success=\"False\"" UnitTestResults.xml) -ne 0 ];
 then
